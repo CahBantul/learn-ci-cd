@@ -37,4 +37,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             cd /var/www/html/learn-ci-cd
+            sudo git pull
             ls -lah
